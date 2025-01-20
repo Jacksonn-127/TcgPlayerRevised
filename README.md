@@ -8,4 +8,4 @@ You will either need a browser and it's associated selenium web driver.
 
 Please ensure you have added your Chromedriver.exe to the chromeDriver/chromedriver-win64 folder. The output will be an .csv file with all the prices of your current collection.
 
-Currently on hold while I work on school.
+Currently on hold while I work on school. Next feature to implement is reading links from url, and then front end dashboard.
