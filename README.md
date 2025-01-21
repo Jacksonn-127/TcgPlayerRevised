@@ -1,6 +1,6 @@
 Manually checking the price of my collectible trading cards takes hours. To save myself the headache I developed a webscraper to do it for me. 
 
-This is a small program to automatically find the market price of: single cards, graded single cards, or sealed collectible boxes.
+This is a small program to automatically find the market price of: single cards, graded single cards, or sealed collectible boxes using websites like tcg player and price charting.
 
 This reduces search time from 60 seconds to just 2 seconds a 96.77% time saver per item.
 
