@@ -1,8 +1,8 @@
-Looking up the price of my Trading cards every single time I thought about them took too long about 60 seconds per card.
+Manually checking the price of my collectible trading cards takes hours. To save myself the headache I developed a webscraper to do it for me. 
 
 This is a small program to automatically find the market price of: single cards, graded single cards, or sealed collectible boxes.
 
-This reduces search time from 60 seconds to just 2 seconds a 97.77% time saver per item.
+This reduces search time from 60 seconds to just 2 seconds a 96.77% time saver per item.
 
 You will either need a browser and it's associated selenium web driver.
 
