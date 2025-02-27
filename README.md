@@ -1,11 +1,57 @@
-Manually checking the price of my collectible trading cards takes hours. To save myself the headache I developed a webscraper to do it for me. 
+Trading Card Price Scraper
 
-This is a small program to automatically find the market price of: single cards, graded single cards, or sealed collectible boxes using websites like tcg player and price charting.
+📌 Overview
 
-This reduces search time from 60 seconds to just 2 seconds a 96.77% time saver per item.
+Manually checking the prices of collectible trading cards can be time-consuming. This project automates the process using a web scraper to retrieve the latest market prices for:
 
-You will either need a browser and it's associated selenium web driver.
+Single cards
 
-Please ensure you have added your Chromedriver.exe to the chromeDriver/chromedriver-win64 folder. The output will be an .csv file with all the prices of your current collection.
+Graded single cards
 
-Currently on hold while I work on school. Next feature to implement is reading links from url, and then front end dashboard.
+Sealed collectible boxes
+
+Using this tool, you can reduce the time spent searching from 60 seconds to just 2 seconds per item—a 96.77% time savings!
+
+🚀 Features
+
+✅ Automatically scrapes prices from TCGPlayer and PriceCharting
+✅ Supports multiple item types (raw, graded, sealed)
+✅ Exports data to a .csv file for easy tracking
+✅ Simple setup with Selenium WebDriver
+
+🛠 Installation & Setup
+
+1. Install Dependencies
+
+Ensure you have Java installed, then set up the required libraries:
+
+Download and install Selenium Java from here
+
+Include Selenium WebDriver and Apache POI (for CSV export) in your Java project
+
+2. Set Up WebDriver
+
+You will need a browser and its corresponding Selenium WebDriver:
+
+Download ChromeDriver from here
+
+Place chromedriver.exe in the chromeDriver/chromedriver-win64/ directory
+
+3. Compile and Run the Program
+
+javac Scraper.java
+java Scraper
+
+The script will generate a .csv file containing the prices of your trading card collection.
+
+⚠️ Current Status
+
+⏳ On Hold while I focus on school.🔜 Next Features:
+
+Ability to read URLs from a file for batch processing
+
+Front-end dashboard for better user interaction
+
+📜 License
+
+This project is licensed under the MIT License.
